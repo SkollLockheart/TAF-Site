@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="TAF_style.css">
+    <!-- <link rel="stylesheet" href="reset.css"> -->
+    <title>TAF: Le Salon Travail-Avenir-Formation</title>
+</head>
+<body>
+    <main>
+        <article>
+            <h1>Présentation JS</h1>
+            <div>
+                <p> JavaScript (souvent abrégé en « JS ») est un langage de script léger, orienté objet, principalement connu comme le langage de script des pages web. Mais il est aussi utilisé dans de nombreux environnements extérieurs aux navigateurs web tels que Node.js, Apache CouchDB voire Adobe Acrobat. Le code JavaScript est interprété ou compilé à la volée (JIT). C'est un langage à objets utilisant le concept de prototype, disposant d'un typage faible et dynamique qui permet de programmer suivant plusieurs paradigmes de programmation : fonctionnelle, impérative et orientée objet. Apprenez-en plus sur JavaScript.</p>
+            </div>
+            <br/>
+            <div class="image">
+                <img src="images/JavaScript.png" alt="logo JS"> 
+            </div> 
+            <p>
+                Cette section de MDN est dédiée au langage JavaScript. Pour des informations sur l'utilisation de JavaScript avec les API spécifiques des navigateurs web pour les pages web, veuillez consulter les sections sur les API Web (Web API en anglais) et le DOM.
+            </p>
+            <p>
+                Le standard qui spécifie JavaScript est ECMAScript. En 2012, tous les navigateurs modernes supportent complètement ECMAScript 5.1. Les anciens navigateurs supportent au minimum ECMAScript 3. Une sixième version majeure du standard a été finalisée et publiée le 17 juin 2015. Cette version s'intitule officiellement ECMAScript 2015 mais est encore fréquemment appelée ECMAScript 6 ou ES6. Étant donné que les standards ECMAScript sont désormais édités sur un rythme annuel, cette documentation fait référence à la dernière version en cours de rédaction, actuellement c'est ECMAScript 2020.
+            </p>
+            <p>
+                JavaScript ne doit pas être confondu avec le langage de programmation Java. Java et JavaScript sont deux marques déposées par Oracle dans de nombreux pays mais ces deux langages de programmation ont chacun une syntaxe, une sémantique et des usages différents.
+            </p>
+            <div id="sommaire">
+                <p id="titre_sommaire"><strong>Sommaire</strong></p>
+                <ul>
+                    <li><a href="#titre1">Un exemple "Hello world"<strong></strong></a></li>
+                    <li><a href="#titre2">Que s'est-il passé ?<strong></strong></a></li>
+                    <li><a href="#titre3">Les bases du JavaScript en accéléré<strong></strong></a></li>
+                </ul>
+            <div>
+                <h2 id="titre1">Un exemple "Hello world"</h2>
+                <p>
+                    Le paragraphe précédent laisse entrevoir quelque chose de passionnant, et cela l'est vraiment — JavaScript est une technologie web parmi les plus dynamiques. Une fois que vous commencerez à être autonome en JavaScript, vous entrerez dans une nouvelle dimension de puissance et créativité.
+                </p>
+                <p>
+                    Cependant, être à l'aise avec JavaScript est plus dur que de l'être avec HTML ou CSS. Vous pourrez démarrer petit et continuer à travailler par petites étapes de façon soutenue. Pour commencer, nous allons vous montrer comment ajouter un JavaScript basique à votre page, en créant un exemple « Hello world ! » (la norme en matière d'exemples de programmation de base).
+                </p>
+                <ul>
+                    <li>
+                        Tout d'abord, allez sur votre site de test et créez un nouveau dossier nommé « scripts » (sans guillemets). Ensuite, dans le nouveau dossier scripts que vous venez de créer, créez un nouveau fichier appelé main.js. Sauvegardez-le dans votre dossier scripts.
+                    </li>
+                    <li>
+                        Ensuite, dans votre fichier index.html, ajoutez l'élément suivant sur une nouvelle ligne avant la balise fermante < /body> :
+                        <div class="image">
+                            <img src="images/JS_liste2.PNG" alt="exemple">
+                        </div>
+                    </li>
+                    <li>
+                        Cet élément a le même rôle que l'élément < link> pour le CSS — il applique le code JavaScript à la page, de sorte qu'il puisse avoir de l'effet sur le HTML (en même temps que le CSS et autres sur la page).
+                    </li>
+                    <li>
+                        Maintenant ajoutez le code suivant dans main.js :
+                        <div class="image">
+                            <img src="images/JS_liste4.PNG" alt="exemple js let suite">
+                        </div>
+                    </li>
+                    <li>
+                        Assurez-vous que les fichiers HTML et JavaScript soient enregistrés puis chargez index.html dans votre navigateur. Vous devriez obtenir quelque chose comme :
+                        <div class="image">
+                            <img src="images/JS_liste5.PNG" alt="exemple js">
+                        </div>
+                    </li>
+                </ul>
+                <h2 id="titre2">Que s'est-il passé?</h2>
+                <p>
+                    Le texte du titre a été changé en «Bonjour, monde ! » en utilisant JavaScript. Pour cela, on a utilisé une fonction appelée querySelector() pour obtenir une référence sur l'en‑tête et la stocker dans une variable appelée myHeading. C'est assez proche de ce qu'on a fait avec les sélecteurs CSS. Lorsqu'on souhaite manipuler un élément, il faut d'abord le sélectionner.
+
+                Ensuite, nous fixons à « Bonjour, monde ! » la valeur de la propriété textContent de la variable myHeading (elle représente le contenu du titre).
+                </p>
+               
+                <h2 id="titre3">Les bases du JavaScript en accéléré</h2>
+                <p>
+                    Nous allons explorer les fonctionnalités de base de JavaScript pour que vous puissiez mieux comprendre comment il fonctionne. Ces fonctionnalités sont communes à la plupart des langages de programmation, si vous comprenez ces éléments en JavaScript, vous êtes en bonne voie de pouvoir programmer à peu près n'importe quoi ! 
+                </p>
+                <h3>Variables</h3>
+                <p>
+                    Les variables sont des conteneurs dans lesquels on peut stocker des valeurs. Pour commencer, il faut déclarer une variable avec le mot-clé let en le faisant suivre de son nom :
+                </p>
+                <div class="image">
+                    <img src="images/JS_let.PNG" alt="exemple js variable">
+                    </div>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, eligendi. Voluptate labore mollitia numquam reprehenderit, alias quis fugiat quia. Id, dolorem iste facilis repellendus illum assumenda placeat quam qui. Molestiae.
+                </p>
+                </div>
+        </article>
+    </main>
+</body>
+</html>
