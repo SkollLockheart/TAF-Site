@@ -1,0 +1,71 @@
+@media only screen and (max-width : 767px){
+/* HEADER */
+#imgDeFond{
+    width: 100%;
+    height: 30vh;
+}
+#navHead{
+    width: 100%;
+
+
+}
+#ulHead{
+    margin-left: 0;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3%;
+}
+#logoTop{
+    display: none;
+}
+#navHead{
+    padding-right: 0;
+}
+
+
+
+/* MAIN */
+main{
+    margin-top: -5%;
+    margin-left: 5% ;
+    margin-right: 5%;
+}
+img{
+    width: 100%;
+}
+.LOGO{
+    width: 30%;
+    height: 30%;
+}
+iframe{
+    width: 100%;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+embed{
+    display: none;
+}
+
+
+/* FOOTER */
+footer{
+    height: auto;
+    position:relative;
+ }
+#ulFoot{
+    margin-left: auto;
+    margin-right: auto;
+    align-items: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+
+    
+}
+.liFoot{
+    margin: none;
+    width: 25vh;
+
+}
+}

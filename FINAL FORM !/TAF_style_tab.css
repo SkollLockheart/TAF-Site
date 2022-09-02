@@ -1,0 +1,74 @@
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) and (orientation : landscape){
+/* HEADER */
+    #imgDeFond{
+        width: 100%;
+    }
+    #navHead{
+        width: 100%;
+
+    }
+    #ulHead{
+        margin-left: 12vh;
+        justify-content: center;
+        gap: 3%;
+    }
+    #logoTop{
+        width: 10vh;
+        height: 10vh;
+        margin-left: 2vh;
+    }
+    #navHead{
+        padding-right: 0;
+    }
+
+    .miniJeu:hover .jeu,.miniJeu:focus .jeu, .miniJeu:active .jeu{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        background-color: white;
+        border: #111 solid .5px;
+        border-radius: 10px;
+        padding: 4px;
+        margin-left: -15px;
+        box-shadow:#111 2px 2px 5px;
+       
+    }
+
+
+/* MAIN */
+    img{
+        width: 100%;
+    }
+    .LOGO{
+        width: 30%;
+        height: 30%;
+    }
+    iframe{
+        width: 100%;
+        margin-left: 0;
+        margin-right: 0;
+    }
+    embed{
+        width: 125vh;
+        margin-left: -23vh;
+    }
+
+
+/* FOOTER */
+    footer{
+        height: auto;
+        position:relative;
+     }
+    #ulFoot{
+        margin-left: auto;
+        margin-right: auto;
+        align-items: flex-start;
+
+        
+    }
+    .liFoot{
+        margin: none;
+        width: 25vh;
+
+    }
+}

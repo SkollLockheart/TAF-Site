@@ -6,6 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="TAF_style.css">
+    <link rel="stylesheet" href="./TAF_style_tab.css">
+    <link rel="stylesheet" href="./TAF_style_mob.css">
     <title>Découverte JS</title>
 </head>
 <body>
@@ -48,25 +50,26 @@
             </div>
             <br/>
             <div class="image">
-                <img src="images/JavaScript.png" alt="logo JS"> 
-            </div> 
-            <p>
-                Cette section de MDN est dédiée au langage JavaScript. Pour des informations sur l'utilisation de JavaScript avec les API spécifiques des navigateurs web pour les pages web, veuillez consulter les sections sur les API Web (Web API en anglais) et le DOM.
-            </p>
-            <p>
-                Le standard qui spécifie JavaScript est ECMAScript. En 2012, tous les navigateurs modernes supportent complètement ECMAScript 5.1. Les anciens navigateurs supportent au minimum ECMAScript 3. Une sixième version majeure du standard a été finalisée et publiée le 17 juin 2015. Cette version s'intitule officiellement ECMAScript 2015 mais est encore fréquemment appelée ECMAScript 6 ou ES6. Étant donné que les standards ECMAScript sont désormais édités sur un rythme annuel, cette documentation fait référence à la dernière version en cours de rédaction, actuellement c'est ECMAScript 2020.
-            </p>
-            <p>
-                JavaScript ne doit pas être confondu avec le langage de programmation Java. Java et JavaScript sont deux marques déposées par Oracle dans de nombreux pays mais ces deux langages de programmation ont chacun une syntaxe, une sémantique et des usages différents.
-            </p>
-            <div id="sommaire">
-                <p id="titre_sommaire"><strong>Sommaire</strong></p>
-                <ul>
-                    <li><a href="#titre1" class="sommaire">Un exemple "Hello world"<strong></strong></a></li>
-                    <li><a href="#titre2" class="sommaire">Que s'est-il passé ?<strong></strong></a></li>
-                    <li><a href="#titre3" class="sommaire">Les bases du JavaScript en accéléré<strong></strong></a></li>
-                </ul>
+                <img src="images/JavaScript.png" alt="logo JS" class="LOGO"> 
             </div>
+            <div> 
+                <p>
+                    Cette section de MDN est dédiée au langage JavaScript. Pour des informations sur l'utilisation de JavaScript avec les API spécifiques des navigateurs web pour les pages web, veuillez consulter les sections sur les API Web (Web API en anglais) et le DOM.
+                </p>
+                <p>
+                    Le standard qui spécifie JavaScript est ECMAScript. En 2012, tous les navigateurs modernes supportent complètement ECMAScript 5.1. Les anciens navigateurs supportent au minimum ECMAScript 3. Une sixième version majeure du standard a été finalisée et publiée le 17 juin 2015. Cette version s'intitule officiellement ECMAScript 2015 mais est encore fréquemment appelée ECMAScript 6 ou ES6. Étant donné que les standards ECMAScript sont désormais édités sur un rythme annuel, cette documentation fait référence à la dernière version en cours de rédaction, actuellement c'est ECMAScript 2020.
+                </p>
+                <p>
+                    JavaScript ne doit pas être confondu avec le langage de programmation Java. Java et JavaScript sont deux marques déposées par Oracle dans de nombreux pays mais ces deux langages de programmation ont chacun une syntaxe, une sémantique et des usages différents.
+                </p>
+                <div id="sommaire">
+                    <p id="titre_sommaire"><strong>Sommaire</strong></p>
+                    <ul>
+                        <li><a href="#titre1" class="sommaire">Un exemple "Hello world"<strong></strong></a></li>
+                        <li><a href="#titre2" class="sommaire">Que s'est-il passé ?<strong></strong></a></li>
+                        <li><a href="#titre3" class="sommaire">Les bases du JavaScript en accéléré<strong></strong></a></li>
+                    </ul>
+                </div>
                 <h2 id="titre1">Un exemple "Hello world"</h2>
                 <p>
                     Le paragraphe précédent laisse entrevoir quelque chose de passionnant, et cela l'est vraiment — JavaScript est une technologie web parmi les plus dynamiques. Une fois que vous commencerez à être autonome en JavaScript, vous entrerez dans une nouvelle dimension de puissance et créativité.
@@ -102,11 +105,9 @@
                 </ul>
                 <h2 id="titre2">Que s'est-il passé?</h2>
                 <p>
-                    Le texte du titre a été changé en «Bonjour, monde ! » en utilisant JavaScript. Pour cela, on a utilisé une fonction appelée querySelector() pour obtenir une référence sur l'en‑tête et la stocker dans une variable appelée myHeading. C'est assez proche de ce qu'on a fait avec les sélecteurs CSS. Lorsqu'on souhaite manipuler un élément, il faut d'abord le sélectionner.
-
-                Ensuite, nous fixons à « Bonjour, monde ! » la valeur de la propriété textContent de la variable myHeading (elle représente le contenu du titre).
+                    Le texte du titre a été changé en «Bonjour, monde ! » en utilisant JavaScript. Pour cela, on a utilisé une fonction appelée querySelector() pour obtenir une référence sur l'en‑tête et la stocker dans une variable appelée myHeading. C'est assez proche de ce qu'on a fait avec les sélecteurs CSS. Lorsqu'on souhaite manipuler un élément, il faut d'abord le sélectionner. Ensuite, nous fixons à « Bonjour, monde ! » la valeur de la propriété textContent de la variable myHeading (elle représente le contenu du titre).
                 </p>
-               
+            
                 <h2 id="titre3">Les bases du JavaScript en accéléré</h2>
                 <p>
                     Nous allons explorer les fonctionnalités de base de JavaScript pour que vous puissiez mieux comprendre comment il fonctionne. Ces fonctionnalités sont communes à la plupart des langages de programmation, si vous comprenez ces éléments en JavaScript, vous êtes en bonne voie de pouvoir programmer à peu près n'importe quoi ! 
@@ -121,7 +122,7 @@
                 <p>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus, eligendi. Voluptate labore mollitia numquam reprehenderit, alias quis fugiat quia. Id, dolorem iste facilis repellendus illum assumenda placeat quam qui. Molestiae.
                 </p>
-                </div>
+            </div>
         </article>
     </main>
 
